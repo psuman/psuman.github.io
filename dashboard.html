@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <style>
+        
+     .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+	  position: fixed;
+    bottom: 0;
+    top: 0;
+    }
+        
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
+	img{height:100px;margin:5px;}
+	.nav>li>a:focus {
+    text-decoration: none;
+    background-color: #3479b7;
+    border: 1px solid #3479b7;
+    color: #fff;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #58595b;
+    font-size: 18pt;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    font-size: 16pt;
+}
+.democontent li{display:inline-block;list-style-type:disc!important;}
+.democontent li a{font-size: 5em;
+    margin: 0px 10px;}
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav hidden-xs">
+      <img src="pk.svg"/>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Dashboard</a></li>
+        <li><a href="#section2">AI</a></li>
+        <li><a href="#section3">Web</a></li>
+        <li><a href="#section3">Devops</a></li>
+      </ul><br>
+    </div>
+	<div class="jumbotron">
+	<div class="col-sm-9 col-sm-offset-3">
+	</div>
+	</div>
+	<div class="col-sm-8 col-sm-offset-4">
+	<ul class="nav democontent">
+      <li><a href="AI/voicebot/voicebot.html">VoiceBot</a></li>
+      <li><a href="#">Demo-2</a></li>
+      <li><a href="#">Demo-3</a></li>
+	  <li><a href="#">Demo-4</a></li>
+	  <li><a href="#">Demo-5</a></li>
+      <li><a href="#">Demo-6</a></li>
+      <li><a href="#">Demo-7</a></li>
+	  <li><a href="#">Demo-8</a></li>
+	  <li><a href="#">Demo-9</a></li>
+      <li><a href="#">Demo-10</a></li>
+      <li><a href="#">Demo-11</a></li>
+	  <li><a href="#">Demo-12</a></li>
+    </ul>
+	</div>
+    </div>
+	
+	</div>
+
+</body>
+</html>
